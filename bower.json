@@ -1,6 +1,6 @@
 {
     "name": "Mba.ux.SqlNative",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "homepage": "https://github.com/bluebile/Mba.ux.SqlNative",
     "authors": [
         "Bluebile <info@bluebile.com>"
@@ -26,14 +26,14 @@
         "demo",
         "ux",
         "**/*.*~",
-        "Gruntfile.js",
+        "gulpfile.js",
         "bower.json",
         "package.json",
         "test",
         "tests"
     ],
     "dependencies": {
-        "Mba.ux.Sql": "v0.0.12"
+        "Mba.ux.Sql": "v0.0.13"
     },
     "cordova" : {
         "id_or_url_plugin": "https://github.com/bluebile/Cordova-sqlite-storage.git"
