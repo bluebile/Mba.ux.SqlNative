@@ -33,7 +33,7 @@
         "tests"
     ],
     "dependencies": {
-        "Mba.ux.Sql": "v0.0.16"
+        "Mba.ux.Sql": "v0.0.15"
     },
     "cordova" : {
         "id_or_url_plugin": "https://github.com/bluebile/Cordova-sqlite-storage.git"
