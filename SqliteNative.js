@@ -3,6 +3,10 @@ Ext.define('Mba.ux.SqlNative', {
     alias: 'proxy.sql-native',
     xtype: 'sqlnative',
 
+    mixins: [
+        'Mba.ux.BuilderConfig.mixin.BuilderConfig'
+    ],
+
     config: {
         location: 2,
         importDBPrepoulate: false
@@ -18,7 +22,7 @@ Ext.define('Mba.ux.SqlNative', {
         console.log('Run Sqlite');
         return window.sqlitePlugin.openDatabase({
             name: this.getDatabase(),
-            createFromResource: this.getImportDBPrepoulate(),
+            createFromLocation: (new Number(this.getImportDBPrepoulate())).valueOf(),
             location: this.getLocation()
         });
     }
