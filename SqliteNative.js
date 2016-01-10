@@ -23,7 +23,8 @@ Ext.define('Mba.ux.SqlNative', {
         return window.sqlitePlugin.openDatabase({
             name: this.getDatabase(),
             createFromLocation: (new Number(this.getImportDBPrepoulate())).valueOf(),
-            location: this.getLocation()
+            location: this.getLocation(),
+            androidDatabaseImplementation: 2
         });
     }
 });
