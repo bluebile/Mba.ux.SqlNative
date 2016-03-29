@@ -1,10 +1,10 @@
 CHANGELOG
 ===================
 
-* v0.0.19 (2016-03-21)
+* v1.0.1 (2016-03-29)
 
- * bug fix atualização Mba.ux.Sql v0.0.22 (veja CHANGELOG desta versão)
+ * bug fixes merge de correções realizadas na master
 
-* v0.0.18 (2016-03-15)
+* v1.0.0 (2016-03-22)
 
- * feature atualização Mba.ux.Sql v0.0.21
+ * bug fix adição de branch #sqlite-ext para o plugin do cordova com suporte para versão 5.4 do cordova para ios
