@@ -1,9 +1,15 @@
 CHANGELOG
 ===================
 
+* v1.0.2 (2016-04-07)
+
+ * bug fix atualização Mba.ux.Sql v0.0.24 (veja CHANGELOG desta versão)
+
 * v1.0.1 (2016-03-29)
 
- * bug fixes merge de correções realizadas na master
+ * bug fix atualização Mba.ux.Sql v0.0.23 (veja CHANGELOG desta versão)
+ * bug fix atualização Mba.ux.Sql v0.0.22 (veja CHANGELOG desta versão)
+
 
 * v1.0.0 (2016-03-22)
 
