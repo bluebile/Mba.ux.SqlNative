@@ -33,6 +33,6 @@
         "tests"
     ],
     "dependencies": {
-        "Mba.ux.Sql": "v0.0.28"
+        "Mba.ux.Sql": "v0.0.29"
     }
 }
